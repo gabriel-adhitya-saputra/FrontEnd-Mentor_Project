@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --bg: hsl(47, 88%, 63%);
+  --White: hsl(0, 0%, 100%);
+  --Gray500: hsl(0, 0%, 42%);
+  --Gray950: hsl(0, 0%, 7%);
+}
+
+body {
+  background-color: var(--bg);
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+  font-family: "Figtree", sans-serif;
+}
+
+.card {
+  background-color: var(--White);
+  height: fit-content;
+  width: fit-content;
+  box-shadow: 8px 10px black;
+  padding: 1%;
+  border-radius: 15px;
+  max-width: 363px;
+}
+
+svg {
+  border-radius: 15px;
+  margin-bottom: 15px;
+}
+
+.title,
+h2 {
+  color: var(--Gray950);
+  margin-bottom: 15px;
+}
+
+.title,
+h2:hover {
+  color: var(--bg);
+  cursor: pointer;
+}
+
+.category {
+  background-color: var(--bg);
+  color: var(--Gray950);
+  width: fit-content;
+  padding: 1px 10px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+.author {
+  display: flex;
+}
+
+.auth-img {
+  width: 12%;
+}
+
+.auth-name {
+  padding-top: 7px;
+  padding-left: 3px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
