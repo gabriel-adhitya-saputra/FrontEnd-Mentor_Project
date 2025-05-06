@@ -26,15 +26,15 @@ body {
 }
 
 .card{
-    background-color: var(--Grey800);
-    justify-content: center;
-    /* min-height: 75%; */
-    min-width: 25%;
-    height: fit-content;
-    /* width: fit-content; */
-    font-family: "inter", sans-serif;
-    place-items: center;
-  }
+  background-color: var(--Grey800);
+  justify-content: center;
+  /* min-height: 75%; */
+  min-width: 25%;
+  height: fit-content;
+  /* width: fit-content; */
+  font-family: "inter", sans-serif;
+  place-items: center;
+}
 
 .avatar{
   border-radius: 100%;
@@ -70,13 +70,14 @@ body {
   border-radius: 7px;
   text-align: center;
   width: 50vh;
+  text-decoration: none;
 }
-
 
 .attribution {
   font-size: 11px;
   text-align: center;
 }
+
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
